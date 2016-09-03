@@ -1,0 +1,16 @@
+.fade {
+	opacity: 0;
+	-webkit-transition: opacity 2s ease-in;
+	-moz-transition: opacity 2s ease-in;
+	-o-transition: opacity 2s ease-in;
+	transition: opacity 2s ease-in;
+}
+.fade h3 {
+	margin-top: 0px;
+	background-color: #b37aa5;
+	color: #e4b7bf;
+	text-align: center;
+}
+.fade:hover {
+	opacity: 0.9;
+}
